@@ -51,3 +51,4 @@ BOARD_SEPOLICY_DIRS += $(DEVICE_COMMON_PATH)/sepolicy
 
 # inherit from the proprietary version
 include vendor/lge/v20-common/BoardConfigVendor.mk
+BOARD_BOOTCONFIG += androidboot.selinux=permissive
